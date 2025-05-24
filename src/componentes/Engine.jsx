@@ -4,7 +4,7 @@ import Card from "./cards";
 import Lives from "./Lives";
 import GuessedPairs from "./GuessedPairs";
 import RestartButton from "./RestartButton";
-// import { getRandomWords } from "../engine/wordService";
+import { getRandomWords } from "../engine/wordService";
 
 const Engine = () => {
   const [words, setWords] = useState([]);
