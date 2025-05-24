@@ -1,17 +1,6 @@
-// import "./styles.css";
-// import Header from "./componentes/header";
-
-// export default function App() {
-//   return (
-//     <div className="App">
-//       <Header />
-//     </div>
-//   );
-// }
-// src/App.jsx
 import React from "react";
-import Header from "./components/header";
-import Engine from "./components/Engine";
+import Header from "./componentes/header";
+import Engine from "./componentes/Engine";
 import "./styles.css";
 
 const App = () => {
