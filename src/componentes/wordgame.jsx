@@ -84,6 +84,9 @@ const WordGame = () => {
 
   return (
     <main>
+
+
+{/* Cards */}
       <section id="AppCards">
         {words.map((word, index) => (
           <div
@@ -98,6 +101,9 @@ const WordGame = () => {
           </div>
         ))}
       </section>
+
+
+{/* botton */}
       <section id="AppControlPanel">
         <h2>Vidas:</h2>
         <div id="health">{Array(health).fill("❤️").join(" ")}</div>
